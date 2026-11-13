@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(python eval/run_eval.py:*)"
+    ],
+    "deny": [
+      "Read(./jarvis.env)",
+      "Read(./.env)",
+      "Read(./**/*.env)",
+      "Bash(rm:*)",
+      "Bash(del:*)",
+      "Bash(git push:*)",
+      "Bash(git checkout main:*)"
+    ]
+  }
+}

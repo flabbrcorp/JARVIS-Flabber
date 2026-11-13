@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "dangerous_patterns": [
+    "rm -rf",
+    "del /f /s /q",
+    "format",
+    "sudo -i",
+    "certutil decode",
+    "powershell -enc",
+    "eval\\("
+  ],
+  "allowed_paths": {
+    "read": ["C:\\Users\\{USER}\\Desktop", "C:\\Users\\{USER}\\Documents", "D:\\AI models\\JARVIS"],
+    "write": ["C:\\Users\\{USER}\\Documents\\JARVIS_LOGS"],
+    "execute": ["C:\\Python39\\python.exe", "C:\\Users\\{USER}\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"]
+  },
+  "limits": {
+    "timeout": 120,
+    "max_processes": 10,
+    "max_file_size_kb": 102400
+  },
+  "allowed_tools": [
+    "shell_read",
+    "shell_execute",
+    "file_read",
+    "file_write",
+    "file_list",
+    "file_search",
+    "web_search",
+    "web_fetch"
+  ]
+}

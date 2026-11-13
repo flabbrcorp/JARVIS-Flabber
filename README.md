@@ -7,4 +7,3 @@ Jarvis is a Windows desktop assistant for local models. The repository contains 
 - The legacy agent uses [jarvis.env.example](jarvis/jarvis.env.example) as a starting point for a local jarvis.env. Set the endpoint and model for your machine. The [bridge](jarvis-bridge/jarvis_bridge.py) also accepts JARVIS_ROOT and JARVIS_PYTHON to locate the project and Python.
 
 Model weights, local credentials, live memory databases, conversation exports, caches, and compiled launchers are excluded. Existing local models can be registered with Ollama on the machine that runs Jarvis.
-

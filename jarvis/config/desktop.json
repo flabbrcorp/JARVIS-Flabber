@@ -1,0 +1,6 @@
+{
+  "port": 11435,
+  "model_folder": "LU Models",
+  "ollama_store": "ollama-models",
+  "num_ctx": 16384
+}

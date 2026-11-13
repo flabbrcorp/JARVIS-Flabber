@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.env
+.env.*
+*.key
+*.pem
+*.log
+*.sqlite*
+*.db
+*.db-*
+/data/
+/LU Models/
+/ollama-models/
+/models/
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.exe
+*.lnk
+.aider*
+!jarvis/jarvis.env.example

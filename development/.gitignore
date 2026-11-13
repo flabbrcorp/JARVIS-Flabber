@@ -1,0 +1,10 @@
+*
+!/.gitignore
+!/README.md
+!/CURRENT_STATE.md
+!/DECISIONS.md
+!/OPEN_ISSUES.md
+!/CHANGELOG.md
+!/agents/
+!/agents/CODEX.md
+!/agents/CLINE.md
